@@ -51,7 +51,7 @@ public class Admit_Card_Controller {
             this.c1 = jdbc.c1;
             this.s = jdbc.s;
         assert session != null : "fx:id=\"session\" was not injected: check your FXML file 'hello-view.fxml'.";
-        session.getItems().add("Aga");
+        session.getItems().add(utilities.thisSemester());
         // session.getItems().add("Matha");
 
     }
